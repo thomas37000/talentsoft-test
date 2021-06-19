@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 const Ellipsis = (props) => {
-  const [clicked, setClicked] = useState(false);
+  const [clicked, setClicked] = useState(true);
   
   return (
-    <div className={clicked && 'txt'} onClick={() => setClicked(true)}>
+    <div className={clicked && 'txt'} onClick={() => setClicked(!clicked)}>
       {props.txt}
     </div>
   );
