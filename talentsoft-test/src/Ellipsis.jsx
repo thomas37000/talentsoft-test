@@ -5,7 +5,7 @@ const Ellipsis = (props) => {
   const [clicked, setClicked] = useState(true);
 
   return (
-    <div className={clicked && 'txt'} onClick={() => setClicked(!clicked)}>
+    <div className={clicked ? "txt" : "txtDisplay"} onClick={() => setClicked(!clicked)}>
       {props.txt}
     </div>
   );

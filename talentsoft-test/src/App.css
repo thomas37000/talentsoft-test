@@ -24,6 +24,13 @@
   max-width: 75ch;
 }
 
+.txtDisplay {
+  background-color: lightblue;
+  padding: 20px;
+  font-size: 1.3rem;
+  color: #282c34;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
