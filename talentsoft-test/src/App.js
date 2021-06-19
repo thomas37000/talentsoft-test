@@ -15,8 +15,8 @@ function App() {
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
       </header>
-
-      <Ellipsis txt={txt} />
+    
+      <Ellipsis txt={txt} className="clicked" />
     </div>
   );
 }
