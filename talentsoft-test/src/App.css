@@ -21,7 +21,7 @@
 .txt:hover {
   text-overflow: clip;
   white-space: normal;
-  word-break: break-all;
+  max-width: 75ch;
 }
 
 @media (prefers-reduced-motion: no-preference) {
